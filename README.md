@@ -31,12 +31,14 @@ pip install pandas scikit-learn gensim nltk spacy pyLDAvis wordcloud mlxtend ipy
 6. All random seeds set to 42 throughout
 
 ## Project Structure
+""
 mental_health_nlp/
 ├── data/               # Dataset (not tracked by Git — add manually)
 ├── models/             # Saved models (not tracked by Git)
 ├── notebooks/          # Jupyter notebooks + output figures
 │   └── 01_data_exploration.ipynb
 └── README.md
+""
 
 ## Key Findings
 - All algorithms independently discovered two language groups: **Functional** vs **Distressed**
